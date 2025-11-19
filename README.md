@@ -66,7 +66,7 @@
 
 ## Решение 3
 
-2 ВМ в одной локальной сети. Соединение по ssh,
-команда: rsync -av --progress --bwlimit=125 /tmp/rsync_test/bigfile.img sergk@192.168.56.105:/tmp/rsync_dest/
+2 ВМ в одной локальной сети. Соединение по ssh.  
+команда: rsync -av --progress --bwlimit=125 /tmp/rsync_test/bigfile.img sergk@192.168.56.105:/tmp/rsync_dest/  
 
 ![Задание 3](https://github.com/SKISHCHENKO/10-03-HW/blob/main/img/rsync_task3_1.png)
